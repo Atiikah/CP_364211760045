@@ -12,3 +12,11 @@ Question 1:
 และเขียนผลลัพท์ลงในไฟล์ชื่อ final2.txt 
 (5 คะแนน)
 """
+
+a = [ ]
+while True:
+    x = int(input())
+    if x == 10:
+        break
+    a.append(x)
+print(a)

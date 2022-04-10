@@ -23,3 +23,24 @@ o = 11
 u = 1 
 
 """
+
+while(True):
+    phrase = input('Enter message: ')
+    if phrase == 'end':
+        quit()
+    lower = str.lower(phrase)
+    convert = list(lower)
+    a = convert.count('a')
+    e = convert.count('e')
+    i = convert.count('i')
+    o = convert.count('o')
+    u = convert.count('u')
+
+    vowel = a + e + i + o + u
+    break
+print ('\n''Total vowels = ', vowel)
+print ('a = ', a)
+print ('e = ', e)
+print ('i = ', i)
+print ('o = ', o)
+print ('u = ', u)
